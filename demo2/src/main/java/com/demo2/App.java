@@ -5,10 +5,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class App 
-{
-    public static void main( String[] args ) throws IOException
-    {
+public class App {
+    public static void main( String[] args ) throws IOException {
         OkHttpClient client = new OkHttpClient();
 
         String symbol = "MSFT";
