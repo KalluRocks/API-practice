@@ -30,7 +30,11 @@
       <artifactId>okhttp</artifactId>
       <version>5.0.0-alpha.14</version>
     </dependency>
-
+    <dependency>
+        <groupId>org.asynchttpclient</groupId>
+        <artifactId>async-http-client</artifactId>
+        <version>3.0.0.Beta3</version>
+    </dependency>
   </dependencies>
 
   <build>

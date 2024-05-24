@@ -19,8 +19,11 @@ public class App {
             .build();
 
         Response response = client.newCall(request).execute();
-
+        
         System.out.println(response);
         System.out.println(response.body().string());
+
+        //Close the connection with client
+        response.close();
     }
 }
