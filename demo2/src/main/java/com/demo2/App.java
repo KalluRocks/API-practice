@@ -14,7 +14,7 @@ public class App {
         Request request = new Request.Builder()
             .url(endpoint)
             .get()
-            .addHeader("X-RapidAPI-Key", "e242381fffmsh1e813f83c8d259ep1a968djsnd9a292443f71")
+            .addHeader("X-RapidAPI-Key", "api key here")
             .addHeader("X-RapidAPI-Host", "alpha-vantage.p.rapidapi.com")
             .build();
 

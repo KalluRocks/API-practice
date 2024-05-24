@@ -11,7 +11,7 @@ public class Asyncexample {
         String symbol = "SBIN.BSE";
         String endpoint = String.format("https://alpha-vantage.p.rapidapi.com/query?function=TIME_SERIES_DAILY&symbol=%s&outputsize=compact&datatype=json", symbol); 
         client.prepare("GET", endpoint)
-	        .setHeader("X-RapidAPI-Key", "e242381fffmsh1e813f83c8d259ep1a968djsnd9a292443f71")
+	        .setHeader("X-RapidAPI-Key", "api key here")
 	        .setHeader("X-RapidAPI-Host", "alpha-vantage.p.rapidapi.com")
 	        .execute()
 	        .toCompletableFuture()
